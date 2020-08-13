@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CicloBike</string>
+    <string name="LASCONDES">Ciclovia Las Condes</string>
+    <string name="ALL">Todas</string>
 </resources>

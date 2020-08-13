@@ -1,5 +1,5 @@
 package com.example.ciclobike
 
-class Ciclovia(
+data class Ciclovia(
     var nombre: String,
     var comuna: String)

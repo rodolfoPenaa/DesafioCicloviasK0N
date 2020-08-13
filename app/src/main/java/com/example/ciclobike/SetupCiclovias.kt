@@ -1,9 +1,6 @@
 package com.example.ciclobike
 
-import java.util.*
-import kotlin.collections.ArrayList
-
-class SetupCiclovias{
+open class SetupCiclovias{
     private val nombres = arrayOf(
         "Ciclovia 1",
         "Ciclovia 2",
@@ -40,5 +37,8 @@ class SetupCiclovias{
 
         fun init1(): List<Ciclovia>{
             return  nombres.zip(comunas) as List<Ciclovia>
+        }
+        fun getCOMUNA(): String{
+            cicloviaSELECTED
         }
 }
