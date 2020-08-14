@@ -3,15 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/ciclo_tvw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="59dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="80dp"
+        android:layout_marginBottom="11dp"
         android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/comuna_tv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -19,11 +21,9 @@
         android:id="@+id/comuna_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="233dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="11dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ciclo_tvw"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciclo_tvw" />
 </androidx.constraintlayout.widget.ConstraintLayout>
